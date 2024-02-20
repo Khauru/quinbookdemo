@@ -25,9 +25,9 @@ const Navigationbar2: React.FC<Props> = ({ showLogin,setShowLogin, showSignup, s
                     <a
                         href="/"
                         className="logo"
-                        data-dark-logo="../public/Quinbook-Logo-05.png"
+                        data-dark-logo="../Quinbook-Logo-05.png"
                         >
-                        <img src="../public/Quinbook-Logo-05.png" alt="Quinbook" 
+                        <img src="../Quinbook-Logo-05.png" alt="Quinbook" 
                         style={{ width: 'auto', height: '70px' }}/>
                     </a>
                 </div>

@@ -108,7 +108,7 @@ export default function About() {
                         <div className="col-sm-6">
                         <img
                             id="capt_1"
-                            src="../public/captcha.png"
+                            src="../captcha.png"
                         />
                         </div>
                         <div className="col-sm-6">
