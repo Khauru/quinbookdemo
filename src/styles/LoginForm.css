@@ -1,0 +1,130 @@
+.login-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .signup-form{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    /*height:65%;*/
+    width: 50%;
+    /*margin: 0 auto 100px;*/
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputs-container {
+    display: flex; /* Activates flexbox layout */
+    justify-content: space-between; /* Distributes space between inputs */
+    gap: 10px; /* Adds some space between each input */
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    width: 100%; /* Ensure each group fills the container evenly */
+  }
+
+  .signup-form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .signup-form select {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+  .signup-form label {
+    flex: 1;
+  }
+
+  .signup-form input.small-width {
+    width: 30%;
+    margin: 10px 10px 15px;
+    flex: 1;
+  }
+
+  .signup-form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4272d7;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+
+  .signup-form button.small-width {
+    width: 30%;
+  }
+
+
+  .lsignup-form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+  }
+
+  .login-form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 20%;
+    margin: 0 auto 100px;
+  }
+
+  .login-form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+  .login-form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4272d7;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .login-form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+  }

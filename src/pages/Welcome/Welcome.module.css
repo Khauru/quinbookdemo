@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    height: 100rem;
+    background-image: url("https://quinbook.com/ContentQuin/images/slider/pattern.png");
+    background-size: cover;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containersmall {
+    width: 50%;
+    margin: 0;
+    padding-top: 400; 
+    color: #000000
+}
+
+.h1big {
+    font-size:8rem
+}
+
+.h3small {
+    font-size:5rem
+}
