@@ -112,3 +112,27 @@ nav button::before {
 nav button:hover::before {
   width: 100%;
 }
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-menu button {
+  display: block;
+  background: none;
+  border: none;
+  width: 100%;
+  margin: 10px;
+  text-align: left;
+}
+
+.dropdown-menu button:before {
+  background-color: #ffffff;
+  height: 0px;
+}
