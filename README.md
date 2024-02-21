@@ -1,17 +1,26 @@
-Demo React + TypeScript + Vite Homepage for quinbook.com
+# Demo React + TypeScript + Vite for quinbook.com
 
-Available routes:
+This project demonstrates demonstates React application using TypeScript and Vite, designed for `quinbook.com`. It showcases several features and routes to provide a comprehensive example of a modern web application.
 
-"/post/:postId"
-"/funktionen"
-"/reviews"
-"/about"
-"/signup"
-"/login"
- "/"
+## Available Routes
 
 
-TO RUN:
+- `/post/:postId` - Dynamic route for individual posts
+- `/funktionen` - Features page
+- `/reviews` - Reviews page
+- `/about` - About us page
+- `/signup` - Signup form
+- `/login` - Login form
+- `/` - Homepage
+
+##  For dev
 
 yarn
+
 yarn dev
+
+## For build
+
+yarn build
+
+vite preview
